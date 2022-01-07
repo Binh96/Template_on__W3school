@@ -1,0 +1,15 @@
+* Thành phần trang web: + header
+		        + banner
+		        + content
+		        + footer
+
+* Thành phần chi tiết:
+	+ Header: 	- Header navbar: socials link, search, name-website
+	+ Banner: 	- Image, button " Subscribe"
+	+ Content: 	- Có 2 cột content
+	+ Footer:	- Có 1 button, 1 đường link
+
+* Thành phần chung: chữ màu trắng, button
+
+* 
+

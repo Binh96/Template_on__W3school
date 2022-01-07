@@ -1,0 +1,102 @@
+@media (max-width: 1024px){
+
+}
+
+@media (min-width:  740px) and (max-width:  1023px){
+
+
+
+	.header{
+		width: 100%;
+	}
+
+	.content__menu,
+	.content__aboutcatering{
+		display: block;
+	}
+
+	.our__menu-price,
+	.our__menu-name,
+	.content__aboutcatering-descrip{
+		width: 100%;
+		text-align: center;
+	}
+
+	.content__aboutcatering-text{
+		text-align: justify;
+		font-size: 20px;
+	}
+
+	.contact__descrip,
+	.contact__address,
+	.contact__phone,
+	.footer__footer,
+	.content__aboutcatering-text--fade-out{
+		font-size: 20px;
+	}
+
+	.content__aboutcatering-img--style{
+		display: none;
+	}
+
+	.our__menu-price{
+		font-size: 18px;
+	}
+
+	.contact__header{
+		text-align: center;
+	}
+
+
+}
+
+
+
+@media(max-width:  739px){
+
+	.header__nav{
+
+	}
+
+	.header__nav-bar-list{
+		display: none;
+	}
+
+	.slider__text-header{
+		font-size: 20px;
+		opacity: 0.8;
+	}
+
+	.content__aboutcatering-img{
+		display: none;
+	}
+
+	.content__aboutcatering-descrip{
+		display: block;
+		width: 100%;
+	}
+
+	.content__aboutcatering-text{
+		text-align: justify;
+	}
+
+	.content__aboutcatering-text--fade-out{
+		display: none;
+	}
+
+	.content__contact{
+		line-height: 1.5;
+	}
+
+	.contact__header{
+		text-align: center;
+	}
+
+	.btn-send{
+		width: 100%;
+	}
+
+	.btn-send:hover{
+		opacity: 0.9;
+	}
+}

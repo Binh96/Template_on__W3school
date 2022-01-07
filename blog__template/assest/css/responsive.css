@@ -1,0 +1,22 @@
+@media (min-width: 1024px) {
+    
+}
+        /* Tablet */
+
+@media (max-width: 1023px) and (min-width: 730px) {
+    .content__wrap{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 729px) {
+    .content__wrap{
+        display: block;
+        width: 100%;
+    }
+
+    .article-card-img{
+        height: 150px;
+    }
+}

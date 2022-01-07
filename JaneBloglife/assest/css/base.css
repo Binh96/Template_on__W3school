@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    margin: 20px 0;
+    border-top: 1px solid #eeeeee;
+}
+
+p, button, span{
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --white-color: #fff;
+    --text-color: #000;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.grid{
+    display: flex;
+    width: 1302px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__column-8{
+    width: 67.45%;
+    padding: 0 10px;
+}
+
+.grid__column-4{
+    width: 32.55%;
+    padding: 0 10px;
+}

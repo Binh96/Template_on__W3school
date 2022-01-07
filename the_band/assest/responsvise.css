@@ -1,0 +1,44 @@
+@media (max-width:  1024px){
+		
+}
+
+@media (min-width:  740px) and (max-width: 1023px){
+		
+	.descrip-band{
+		font-size: 15px;
+		line-height: 1.8;
+		text-align: justify;
+		margin: 15px 0;
+	}
+
+	.place-body .btn-buy{
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+
+@media (max-width:  739px){
+
+	.header{
+		
+	}
+
+	.nav li{
+		display: block;
+	}
+
+	.search-btn-section{
+		display: none;
+	}
+
+	.mobile-menu-btn{
+
+	}
+
+	.place-body .btn-buy{
+		width: 100%;
+		text-align: center;
+	}
+}

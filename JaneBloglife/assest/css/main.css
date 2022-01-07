@@ -1,0 +1,269 @@
+
+.header{
+    
+}
+
+.header__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 38px;
+    background-color: var(--text-color);
+}
+
+.header__navbar-socials-link{
+    padding: 9px 16px;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.header__navbar-search-icon:hover,
+.header__navbar-socials-link:hover{
+    color: var(--text-color);
+    background-color: #ccc;
+}
+
+.header__navbar-search-icon{
+    padding: 0 16px;
+    line-height: 38px;
+    color: var(--white-color);
+}
+
+.header__title{
+    height: 222px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title-heading{
+    margin: 10px 0;
+    font-size: 47px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.header__title-slogan{
+    line-height: 1.5;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.header__title-slogan span{
+    padding: 0 8px;
+    background-color: var(--text-color);
+    color: var(--white-color);
+}
+        /* Banner */
+.banner-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 728px;
+    width: 100%;
+    background: url(/assest/image/jane.jpg) top center/cover no-repeat;
+}
+
+.banner-content{
+    padding: 0 25px;
+    color: var(--white-color);
+}
+
+.banner-content__name{
+    margin: 12px 0;
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+
+.banner-content__topic{
+    font-size: 64px;
+    letter-spacing: 3px;
+}
+
+.btn-subscribe{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin-top: 26px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    background: #ccc;
+    opacity: 0.7;
+}
+
+.btn-subscribe:hover{
+    opacity: 0.9;
+}
+
+            /* Content */
+.content-container{
+    padding: 15px 0;
+    background-color: #f1f1f1;
+}
+
+.card-post{
+    background: var(--white-color);
+    margin: 16px 0;
+}
+
+.post__header{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.post__heading{
+    margin-bottom: 12px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.post__description{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.post__date{
+    color: #666666;
+}
+
+.post__img{
+    display: block;
+    width: 100%;
+    padding: 0 25px;
+}
+
+.post__text{
+    padding: 0 25px;
+}
+
+.post__first-text{
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 36px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.post__first-text span{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.post__footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 25px;
+}
+
+.btn-like{
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-like:hover{
+    background-color: #ccc;
+}
+
+.btn-replies{
+    color: var(--white-color);
+    padding: 10px 18px;
+    font-weight: 500;
+    background-color: var(--text-color);
+}
+
+.btn-replies:hover{
+    background-color: #ccc;
+    color: var(--text-color);
+}
+
+.btn-quantity{
+    background-color: var(--white-color);
+    color: var(--text-color);
+    padding: 4px 10px;
+    margin-left: 12px;
+}
+
+.comment-footer-wrap{
+    border-top: 1px solid #EEEEEE;
+    padding: 22px 0 30px;
+    margin: 45px 25px 0;
+    display: none;
+}
+
+.post__footer-comment{
+    display: flex;
+    margin: 15px 0;
+}
+
+.post-comment-img{
+    width: 90px;
+    height: 110px;
+}
+
+.post__comment-info{
+    margin-left: 46px;
+}
+
+.post__comment-name{
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.comment-name{
+    position: relative;
+    top: -1px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.comment-date{
+    color: #666;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.post-comment{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.about-container{
+    margin-top: 16px;
+    background-color: var(--text-color);
+}
+
+.about-container__img{
+    width: 100%;
+    filter: grayscale(75%);
+}
+
+.about-container__content{
+    padding: 0 16px 15px;
+}
+
+.about__name{
+    font-size: 21px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: var(--white-color);
+}
+
+.about__descrip{
+    color: var(--white-color);
+    line-height: 1.5;
+    text-align: left;
+}
