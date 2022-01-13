@@ -1,0 +1,41 @@
+.grid{
+    width: 100%;
+}
+
+.grid-wrap{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.no-gutter{
+    margin: 0;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.c-2{
+    width: 16.66667%;
+}
+
+.c-3{
+    width: 25%;
+}
+
+.c-9{
+    width: 75%;
+}
+
+.c-10{
+    width: 83.33333%;
+}

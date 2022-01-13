@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #000;
+    --secondary-color: #757575;
+    --red-color: #f44336;
+    --white-color: #fff;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.sidebar-logo{
+    padding: 30px 12px;
+    margin-bottom: 60px;
+}
+
+.logo{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sidebar-list,
+.sidebar-sub-list{
+    list-style: none;
+    color: var(--secondary-color);
+}
+
+.sidebar-sub-list{
+    display: none;
+    padding: 12px 24px;
+}
+
+.sidebar-sub-list.active{
+    display: block;
+}
+
+.sidebar-icon{
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.sidebar-link,
+.sidebar-sub-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 600;
+    padding: 8px 16px;
+}
+
+.sidebar-link:hover{
+    background-color: #ccc;
+    color: var(--primary-color);
+}
+
+.sidebar-link.active{
+    color: var(--primary-color);
+}
+
+.sidebar-link{
+    font-size: 18px;
+}
+
+.sidebar-sub-link{
+    font-size: 15px;
+}
+
+.sidebar-sub-link.active{
+    background-color: #f1f1f1;
+    color: var(--primary-color);
+}
+
+.sidebar-footer{
+    margin-top: 80px;
+    padding: 0 12px;
+}
+
+.sidebar-contact{
+    display: block;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 15px;
+    padding: 8px 0;
+}
+
+.sidebar-newsletter,
+.sidebar-subscribe{
+    padding: 8px 0;
+    font-size: 15px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.sidebar-contact:hover,
+.sidebar-newsletter:hover,
+.sidebar-subscribe:hover{
+    background-color: #ccc;
+    color: var(--primary-color);
+}
+
+    /* Content */
+.header-content{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-heading{
+    /* display: inline-block; */
+    font-size: 24px;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+.header-icon{
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.banner{
+    padding: 15px 0;
+}
+
+.banner-img{
+    display: block;
+    width: 100%;
+}
